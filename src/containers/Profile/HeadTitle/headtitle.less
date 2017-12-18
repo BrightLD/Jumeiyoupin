@@ -1,0 +1,37 @@
+@H: .38rem;
+.head-title {
+  position: relative;
+  top: 0;
+  width: 3.2rem;
+  height: @H;
+  line-height: @H;
+  background-image: linear-gradient(-204deg, #FD465F 0, #FC5E9F 100%);
+  font-size: .14rem;
+  color: white;
+  text-align: center;
+  .link-back {
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: .80rem;
+    height: @H;
+    line-height: @H;
+    .back {
+      position: absolute;
+      font-size: .30rem;
+      left: 0;
+      top: 0;
+    }
+  }
+  span {
+    display: inline-block;
+  }
+  .home {
+    position: absolute;
+    right: .05rem;
+    top: 0;
+    font-size: .30rem;
+    color: white;
+    /*由于Link标签将i标签转换为react版的a标签，会导致i标签拥有a标签的默认样式，也就是浅蓝色，将其转换为白色即可。*/
+  }
+}

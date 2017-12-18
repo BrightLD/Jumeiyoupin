@@ -1,0 +1,151 @@
+.login-panel {
+  position: relative;
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 1;
+  background: #fff;
+  padding-bottom: 0.8rem;
+}
+.login-panel .views {
+  text-align: left;
+  height: 0.44rem;
+  position: relative;
+  background: #fff;
+  margin: 0;
+  padding: 0;
+  border-bottom: 1px solid #eee;
+}
+.login-panel .views .corner {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 0.4rem;
+  height: 0.44rem;
+  z-index: 1;
+}
+.login-panel .views .corner .return {
+  top: 0.13rem;
+  left: 0.1rem;
+  width: 0.07rem;
+  height: 0.13rem;
+  position: absolute;
+}
+.login-panel .theme {
+  display: block;
+  text-align: center;
+  margin: 0 0.35rem;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  font-size: 0.17rem;
+  color: #666;
+  height: 0.44rem;
+  line-height: 0.44rem;
+  font-weight: normal;
+}
+.login-panel .top {
+  position: absolute;
+  line-height: 0.45rem;
+  right: 0.1rem;
+  top: 0;
+  color: #333;
+  font-size: 0.15rem;
+}
+.login-panel .login-form {
+  margin: 0 12%;
+}
+.login-panel .other-outer {
+  height: 0.58rem;
+  line-height: 0.58rem;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.login-panel .other-login {
+  border-bottom: solid 1px #f5f5f5;
+  z-index: -1;
+  padding: 0 0.24rem;
+  position: relative;
+  width: 1.94rem;
+  height: 0.58rem;
+  line-height: 0.58rem;
+  text-align: center;
+}
+.login-panel .other-title {
+  padding: 0 5px;
+  background: #fff;
+  color: #999999;
+  font-size: 0.14rem;
+}
+.login-panel input {
+  width: 100%;
+  height: 0.36rem;
+  border: 1px solid #d0d0d0;
+  border-radius: 0.5rem;
+  box-sizing: border-box;
+  text-indent: 0.18rem;
+  color: #999999;
+  background: #f5f5f5;
+  font-size: 0.14rem;
+}
+.login-panel .registers {
+  border-radius: 0.2rem;
+  width: 1.56rem;
+  height: 0.36rem;
+  font-size: 0.14rem;
+  text-align: left;
+  text-indent: 0.21rem;
+  margin-top: 0.18rem;
+}
+.login-panel .verification {
+  float: right;
+  margin-top: 0.18rem;
+  background: #ffffff;
+  border: 1px solid #feb2c5;
+  border-radius: 0.2rem;
+  width: 0.76rem;
+  height: 0.35rem;
+  font-size: 0.14rem;
+  color: #feb2c5;
+  line-height: 0.35rem;
+  text-align: center;
+  display: block;
+}
+.login-panel .jm_left {
+  position: relative;
+  top: 0.05rem;
+  width: 1.14rem;
+  height: 0.32rem;
+  line-height: 0.32rem;
+  float: left;
+  font-size: 0.1rem;
+  color: #fe4070;
+  padding-left: 0.07rem;
+}
+.login-panel .jm_col {
+  position: relative;
+  top: 0.05rem;
+  float: right;
+  width: 1.14rem;
+  height: 0.32rem;
+  line-height: 0.32rem;
+  color: #999999;
+  padding-right: 0.07rem;
+  text-align: right;
+}
+.login-panel .register-button {
+  position: relative;
+  top: 0.12rem;
+  background: #feb2c5!important;
+  border-radius: 0.2rem;
+  width: 100%;
+  height: 0.36rem;
+  font-size: 0.14rem;
+  color: #ffffff;
+  line-height: 0.14rem;
+  text-align: center;
+  margin: 0.18rem auto 0 auto;
+  display: block;
+}

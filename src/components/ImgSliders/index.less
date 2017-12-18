@@ -1,0 +1,43 @@
+.sliders_box{
+  position: relative;
+  .sliders{
+    width: 100%;
+    height: 100%;
+    .slider{
+      width: 100%;
+      height: 100%;
+      img{
+        width: 100%;
+        height: 100%;
+      }
+    }
+  }
+  .sliders_navs{
+    width:100%;
+    position: absolute;
+    bottom: 0;
+    text-align: center;
+    span:not(.sliders_nav_num){
+      display: inline-block;
+      border-radius: 50%;
+    }
+  }
+  .sliders_nav_num{
+    position: fixed;
+    height: 1.2rem;
+    z-index: 999;
+    bottom: 5%;
+    left: 0;
+    text-align: center;
+    color: #fff;
+    width: 100%;
+    i{
+      display: inline-block;
+      font-style: normal;
+      font-size: 13px;
+      line-height: 1.2rem;
+      color: #fff;
+    }
+    
+  }
+}

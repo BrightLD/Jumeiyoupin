@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<ul id='cal'>
+    <li>1</li>
+    <li>2</li>
+    <li>3</li>
+    <li id='add'>+</li>
+    <li id='j'>-</li>
+    <li id='deng'>=</li>
+</ul>
+
+</body>
+<script>
+    var total = '';
+
+    cal.onclick = function (e) {
+        e = e || window.event;
+        if (e.target.id == 'add') {
+            console.log('add');
+            if (isNaN(total[total.length - 1])) {
+                return;
+            }
+            if(isNaN(total[total.length - 1])){
+                total+='0';
+            }
+            total = eval(total);
+            total += '+';
+        } else if (e.target.id == 'j') {
+
+            if (isNaN(total[total.length - 1])) {
+                return;
+            }
+            if(isNaN(total[total.length - 1])){
+                total+='0';
+            }
+            total = eval(total);
+            total += '-';
+        } else if (e.target.id == 'deng') {
+            console.log(total,'sssss');
+            if(isNaN(total[total.length - 1])){
+                total+='0';
+            }
+            val = eval(total);
+            total='';
+        } else {
+
+            total+=e.target.innerHTML;
+            console.log(e.target.innerHTML);
+        }
+    }
+</script>
+</html>

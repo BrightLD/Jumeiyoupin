@@ -1,0 +1,98 @@
+.header_nav_box {
+  width: 100%;
+  height: auto;
+}
+.header_nav_box .header_nav {
+  height: .3755rem;
+  position: relative;
+  z-index: 20;
+  overflow: hidden;
+}
+.header_nav_box .header_nav .nav_inner {
+  background: #fff;
+  border-bottom: .01rem solid #eee;
+  box-sizing: border-box;
+}
+.header_nav_box .header_nav .nav_inner .nav_inner_items {
+  display: inline-block;
+  position: relative;
+  text-align: center;
+  font-size: 14px;
+  color: #666666;
+  padding: 0 .17rem;
+  line-height: .3755rem;
+  height: 100%;
+  width: auto;
+}
+.header_nav_box .header_nav .nav_inner .nav_inner_items a {
+  color: #666666;
+}
+.header_nav_box .header_nav .nav_dialog_arrows {
+  display: block;
+  width: 40px;
+  height: 42px;
+  position: absolute;
+  right: 0;
+  top: 0;
+  z-index: 20;
+  text-align: center;
+  font-size: 0;
+  line-height: 0;
+  background-color: rgba(255, 255, 255, 0.95);
+}
+.header_nav_box .header_nav .nav_dialog_arrows::before {
+  position: absolute;
+  left: -6px;
+  top: 0;
+  width: 6px;
+  z-index: 20;
+  background: url(http://a5.jmstatic.com/75b9451b5c4393f3/shbg.png) left center no-repeat;
+  -webkit-background-size: cover;
+  background-size: cover;
+  content: "";
+  height: 100%;
+}
+.header_nav_box .header_nav .nav_dialog_arrows .icon-arrows {
+  width: 18px;
+  height: 18px;
+  margin: 12px auto 0;
+  display: block;
+  background: url(http://a2.jmstatic.com/6aa4a5a9325cf7bb/arrowbg.png) no-repeat center center;
+  -webkit-background-size: 100%;
+  background-size: 100%;
+  transition: transform .5s ease;
+}
+.header_nav_box .nav_dialog {
+  display: none;
+  position: absolute;
+  max-height: 210px;
+  overflow-y: auto;
+  zoom: 1;
+  width: 100%;
+  background-color: #fff;
+  opacity: .95;
+  float: left;
+  text-align: left;
+  font-size: 0;
+  z-index: 20;
+}
+.header_nav_box .nav_dialog .nav_dialog_items {
+  color: #333333;
+  height: 42px;
+  line-height: 42px;
+  padding: 0 8px;
+  font-size: 14px;
+  min-width: .5rem;
+  vertical-align: top;
+  box-sizing: border-box;
+  list-style: none;
+  width: 33.33%;
+  float: left;
+  text-align: center;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  overflow: hidden;
+}
+.header_nav_box .nav_dialog .nav_dialog_items a {
+  color: #333333;
+}

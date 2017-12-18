@@ -1,0 +1,29 @@
+.add-animation{
+  color: red;
+  font-size:.15rem;
+  position: fixed;
+  right:3rem;
+  bottom:3rem;
+  font-weight: bold;
+  opacity:1;
+  width: .3em;
+  height: .3rem;
+  line-height: .3rem;
+  text-align: center;
+  animation:animate-add 1s ease-out both;
+}
+@keyframes animate-add {
+  0%{
+    right:3rem;
+    bottom: 3rem;
+    zoom:1;
+    font-size: .2rem;
+  }
+
+  100%{
+    right:0.3rem;
+    bottom: 0;
+    zoom:0;
+    font-size: .0em;
+  }
+}

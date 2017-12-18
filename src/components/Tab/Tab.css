@@ -1,0 +1,29 @@
+.footerTab {
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  position: fixed;
+  width: 100%;
+  height: .4rem;
+  left: 0;
+  bottom: 0;
+  border-top: 1px solid #999999;
+  background: #fff;
+}
+.footerTab a {
+  display: flex;
+  flex: 1;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-size: 12px;
+  color: #999999;
+}
+.footerTab a .iconfont {
+  font-size: .17rem;
+}
+.footerTab a.active {
+  color: #fe4070;
+}

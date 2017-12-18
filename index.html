@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>聚美优品</title>
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <!--个人中心字体图标-->
+
+    <link rel="stylesheet" href="//at.alicdn.com/t/font_481232_ezr3nsrydhg2e29.css">
+    <link rel="stylesheet" href="//at.alicdn.com/t/font_481032_0ji81mktxc6ry66r.js">
+    <link rel="stylesheet" href="./src/style/reset.min.css">
+    <link rel="stylesheet" href="//at.alicdn.com/t/font_481149_66693ouvautk2o6r.css">
+    <link rel="stylesheet" href="//at.alicdn.com/t/font_464743_0mjvjv4obq1o47vi.css">
+    <script>
+        //计算文字大小
+        function compuntedFontSize() {
+            let clientW = document.documentElement.clientWidth || document.body.clientWidth;
+            document.documentElement.style.fontSize = clientW / 320 * 100 + 'px';
+            console.log(document.documentElement.style.fontSize);
+        }
+
+        compuntedFontSize();
+        window.addEventListener('resize', compuntedFontSize)
+    </script>
+
+</head>
+
+
+<body>
+
+
+<div id="root"></div>
+</body>
+</html>

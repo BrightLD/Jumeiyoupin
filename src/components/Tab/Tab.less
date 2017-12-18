@@ -1,0 +1,31 @@
+.footerTab {
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  position: fixed;
+  width: 100%;
+  height: .4rem;
+  left: 0;
+  bottom: 0;
+  border-top:1px solid rgb(153, 153, 153);
+  background: #fff;
+  z-index: 2;
+  a {
+    display: flex;
+    flex: 1;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-size: .12rem;
+    color: rgb(153, 153, 153);
+    .iconfont{
+      font-size: .17rem;
+    }
+    &.active{
+      color: rgb(254, 64, 112);
+
+    }
+  }
+}

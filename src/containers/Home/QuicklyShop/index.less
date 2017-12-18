@@ -1,0 +1,143 @@
+body,html{
+  background-color: #eee;
+  overflow-x: hidden;
+}
+.sliders_box{
+  margin-top: 1px;
+}
+.deals-icon-box{
+  margin: 2px auto;
+  background-color: grey;
+  margin-bottom: .06832rem;
+  display: block;
+  .deals-icons{
+    background-color: #fff;
+    text-align: center;
+    padding: .1451rem;
+    font-size: .14rem;
+    li{
+      width: .7708rem;
+      display: inline-block;
+      text-align: center;
+      position: relative;
+      list-style: none;
+      a{
+        color: #000;
+        img{
+          display: block;
+          width: 53.2%;
+          margin: 0 auto;
+        }
+        .deals-text{
+          width: 100%;
+          color: #666;
+          margin-top: .064rem;
+          text-align: center;
+          font-size: .12rem;
+        }
+      }
+    }
+  }
+}
+.deals-content{
+  background-color: #fff;
+  .deals-content-header{
+    text-align: center;
+    .deals-content-header-icon{
+      width: .1323rem;
+      height: .3412rem;
+      line-height: .3412rem;
+      position: relative;
+      color: #333;
+      display: inline-block;
+      top: .03rem;
+      img{
+        width: 100%;
+      }
+    }
+    .deals-content-header-txt{
+      color: #333;
+      font-size: .14rem;
+      display: inline-block;
+    }
+  }
+  .deals-content-lists{
+    .deals-content-list{
+      vertical-align: top;
+      list-style: none;
+      a{
+        display: block;
+        .product-info{
+          border-bottom: 1px solid #eee;
+          position: relative;
+          padding: 0.1024rem 0;
+          margin: 0 0.1024rem;
+          .product-img{
+            text-align: center;
+            overflow: hidden;
+            width: .8532rem;
+            height: .8532rem;
+            float: left;
+            position: relative;
+            z-index: 9;
+            img{
+              width: 100%;
+            }
+          }
+          .product-desc{
+            width: 2.016rem;
+            height: .8532rem;
+            margin-left: .1024rem;
+            position: relative;
+            float: left;
+            .product-name{
+              color: #333;
+              font-size: .14rem;
+              line-height: .2rem;
+              height: .4rem;
+              word-break: break-all;
+              word-wrap: break-word;
+              overflow: hidden;
+              display: -webkit-box;
+              -webkit-line-clamp:2;
+              -webkit-box-orient:vertical;
+            }
+            .price-info{
+              font-size: .13rem;
+              position: absolute;
+              color: #999;
+              bottom: .128rem;
+              left: 0;
+              .activity-jumei-price{
+                height: .2rem;
+                display: block;
+                text-overflow: ellipsis;
+                overflow: hidden;
+                white-space: nowrap;
+                .price{
+                  color: #fe4070;
+                  span{
+                    font-size: .18rem;
+                    color: #fe4070;
+                  }
+
+                }
+                .old{
+                  margin-left: .03rem;
+                  text-decoration: line-through;
+                }
+              }
+            }
+          }
+          &::after{
+            display: block;
+            clear: both;
+            content: "";
+            visibility: hidden;
+            height: 0;
+          }
+        }
+      }
+    }
+  }
+}

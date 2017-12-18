@@ -1,0 +1,267 @@
+@H: .38rem;
+.profile {
+  /*i标签的边框阴影*/
+  i {
+    text-shadow: 1px 1px 1px #bbbbbb;
+  }
+  .head-title {
+    position: relative;
+    top: 0;
+    width: 3.2rem;
+    height: @H;
+    line-height: @H;
+    background-image: linear-gradient(-204deg, #FD465F 0, #FC5E9F 100%);
+    font-size: .14rem;
+    color: white;
+    text-align: center;
+    .link-back {
+      position: absolute;
+      left: 0;
+      top: 0;
+      width: .80rem;
+      height: @H;
+      line-height: @H;
+      .back {
+        position: absolute;
+        font-size: .30rem;
+        left: 0;
+        top: 0;
+      }
+    }
+    span {
+      display: inline-block;
+    }
+      .home {
+        position: absolute;
+        right: .05rem;
+        top: 0;
+        font-size: .30rem;
+        color: white;
+      /*由于Link标签将i标签转换为react版的a标签，会导致i标签拥有a标签的默认样式，也就是浅蓝色，将其转换为白色即可。*/
+      }
+  }
+  .wrapper {
+    position: fixed;
+    bottom: .40rem;
+    top: .38rem;
+    font-size: .18rem;
+    overflow-y: scroll;
+    background: white;
+    .user-unlogin {
+      padding-top: .1rem;
+      box-sizing: border-box;
+      background-image: linear-gradient(-204deg, #FD465F 0, #FC5E9F 100%);
+      .userImg {
+        display: block;
+        margin: 0 auto;
+        width: .6rem;
+        height: .6rem;
+        background-size: .6rem .6rem;
+        /*为什么不加image就不行了，背景图片大小徒河确定*/
+        background-image: url("https://f5.jmstatic.com/static_account/dist/v1.0.31528/images/mobile_usercenter/myjumei/noportrait.png");
+      }
+      .operation {
+        margin: 0 .5rem;
+        .operationItem {
+          padding: .1rem;
+          text-align: center;
+          .signUp, .login {
+            display: inline-block;
+            width: .95rem;
+            height: .25rem;
+            color: white;
+          }
+          span {
+            color: white;
+          }
+        }
+      }
+    }
+    .user-login{
+      position: relative;
+      width: 100%;
+      height: 1.2rem;
+      .user-info{
+        width: 100%;
+        height: .7rem;
+        background-image: linear-gradient(-204deg, #FD465F 0, #FC5E9F 100%);
+        img{
+          position: absolute;
+          top: .35rem;
+          left: .35rem;
+          display: inline-block;
+          width: .64rem;
+          height: .64rem;
+          border-radius: 50%;
+        }
+        .user-detail{
+          position: absolute;
+          top: .3rem;
+          left: 1.1rem;
+          width: 1.2rem;
+          display: flex;
+          flex-direction: column;
+          color: white;
+
+          span{
+            font-size: .13rem;
+          }
+        }
+      }
+      .user-icon{
+        position: absolute;
+        display: flex;
+        justify-content: center;
+        right:0;
+        bottom: 0;
+        height: .5rem;
+        width: 2.3rem;
+        .icon-content{
+          display:flex;
+          flex-direction: column;
+          flex: 1;
+          justify-content: center;
+          align-items: center;
+          i{
+            font-size: .25rem;
+            color: #666;
+          }
+          span{
+            font-size: .12rem;
+          }
+        }
+      }
+    }
+    .order-block {
+      height: .34rem;
+      line-height: .34rem;
+      font-size: .13rem;
+      .block-title {
+        position: relative;
+        padding-left: .08rem;
+        border-bottom: 1px solid lightgray;
+        .ghBook {
+          font-size: .20rem;
+          color: #999;
+        }
+        span {
+          margin-left: .1rem;
+        }
+        a {
+          position: absolute;
+          right: .03rem;
+          top: 0;
+          color: #999;
+          height: .34rem;
+          line-height: .34rem;
+          text-align: center;
+          font-size: .13rem;
+          .ghArrow {
+            font-size: .20rem;
+          }
+        }
+      }
+
+    }
+    .block-content {
+      width: 3.2rem;
+      display: flex;
+      .block-item {
+        display: flex;
+        justify-content: center; /*水平轴上的内容以中心对齐*/
+        flex-direction: column; /*子元素的排列方式为竖直方向为准*/
+        align-items: center; /*子元素的垂直方向上居中对齐*/
+        padding: .1rem 0;
+        width: .8rem;
+        height: .5rem;
+        i {
+          color: #666;
+          font-size: .24rem;
+        }
+        span {
+          display: block;
+          font-size: .12rem;
+          color: #666;
+        }
+      }
+
+    }
+    .block-fond {
+      width: 3.2rem;
+      line-height: .35rem;
+      .font-title {
+        width: 3.2rem;
+        height: .35rem;
+        line-height: .35rem;
+        padding-left: .08rem;
+        box-sizing: border-box;
+        border-bottom: .01rem solid lightgray;
+        i {
+          font-size: .2rem;
+        }
+        span {
+          color: #333;
+          margin-left: .10rem;
+          font-size: .14rem;
+        }
+      }
+      .fond-content {
+        width: 3.2rem;
+        display: flex;
+        a {
+          display: flex;
+          justify-content: center;
+          align-items: center;
+          flex: 1;
+          span {
+            font-size: .13rem;
+            color: gray;
+          }
+        }
+      }
+    }
+    .fill {
+      width: 3.2rem;
+      height: .1rem;
+      background: #f2f2f2;
+    }
+    .block-list {
+      width: 3.2rem;
+      height: 1.7rem;
+      ul {
+        width: 3.2rem;
+        height: 1.7rem;
+        li {
+          display: block;
+          text-decoration: none;
+          color: #333;
+          padding-left: .08rem;
+          border-bottom: .01rem solid lightgray;
+          height: .34rem;
+          line-height: .34rem;
+          font-size: .13rem;
+          position: relative;
+          i {
+            font-size: .2rem;
+          }
+          span {
+            margin-left: .1rem;
+          }
+          .rightArrow {
+            position: absolute;
+            right: .05rem;
+            font-size: .2rem;
+          }
+        }
+        .cancel {
+          border-bottom: none;
+        }
+      }
+    }
+    .hint {
+      padding: .20rem;
+      background: #f2f2f2;
+      font-size: .11rem;
+    }
+  }
+}

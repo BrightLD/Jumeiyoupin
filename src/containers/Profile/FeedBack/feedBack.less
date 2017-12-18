@@ -1,0 +1,84 @@
+@H: .38rem;
+.feedBack {
+  width: 3.2rem;
+  .feedBack-title {
+    position: relative;
+    top: 0;
+    width: 3.2rem;
+    height: @H;
+    line-height: @H;
+    background: #ed145b;
+    font-size: .14rem;
+    color: white;
+    text-align: center;
+    .feedBack-back {
+      position: absolute;
+      left: 0;
+      top: 0;
+      width: .80rem;
+      height: @H;
+      line-height: @H;
+      .back {
+        position: absolute;
+        font-size: .30rem;
+        left: 0;
+        top: 0;
+      }
+    }
+    span {
+      display: inline-block;
+    }
+    .home {
+      position: absolute;
+      right: .05rem;
+      top: 0;
+      font-size: .30rem;
+      color: white;
+    }
+  }
+  .feedBack-content{
+    background: #fff;
+    border-bottom:1px solid  #e0e0e0;
+    color: #333;
+    padding: 12px;
+    font-size: 14px;
+    line-height: 19px;
+
+  }
+  textarea{
+    margin: 0;
+    border-radius: 0;
+    font-size: .12rem;
+    display: block;
+    width: 100%;
+    border: none;
+    -webkit-appearance: none;
+    border-bottom: 1px solid #e0e0e0;
+    padding:.1rem .1rem .1rem .12rem ;
+    box-sizing: border-box;
+    color: gray;
+  }
+  input{
+    display: block;
+    width: 100%;
+    border: none;
+    border-bottom: 1px solid #e0e0e0;
+    padding: .1rem .1rem .1rem .12rem;
+    box-sizing: border-box;
+    color: gray;
+    font-size: .12rem;
+  }
+  .submit{
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: .47rem;
+    background: #ffffff;
+    color:#ed145b;
+    padding: .12rem 0;
+    border: 1px solid #e0e0e0;
+    font-size: .14rem;
+    z-index: 100;
+  }
+}

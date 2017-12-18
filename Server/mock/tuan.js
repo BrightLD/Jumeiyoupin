@@ -1,0 +1,15 @@
+module.exports=[
+    {nav_title:'推荐',nav_link:'/yiqituan/recommend'},
+    {nav_title:'母婴健康',nav_link:'/yiqituan/mbaby'},
+    {nav_title:'食品保健',nav_link:'/yiqituan/foods'},
+    {nav_title:'内衣',nav_link:'/yiqituan/underwear'},
+    {nav_title:'家居',nav_link:'/yiqituan/furniture'},
+    {nav_title:'美妆',nav_link:'/yiqituan/makeup'},
+    {nav_title:'-饰品配饰',nav_link:'/yiqituan/jewellery'},
+    {nav_title:'-数码家电',nav_link:'/yiqituan/3c'},
+    {nav_title:'-女装',nav_link:'/yiqituan/ladies'},
+    {nav_title:'-鞋类',nav_link:'/yiqituan/shose'},
+    {nav_title:'-礼品箱包',nav_link:'/yiqituan/bag'},
+    {nav_title:'-运动户外',nav_link:'/yiqituan/sports'},
+    {nav_title:'-下期预告',nav_link:'/yiqituan/pre'}
+]
